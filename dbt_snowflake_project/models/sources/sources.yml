@@ -1,0 +1,9 @@
+sources:
+  - name: staging # this is the source_name
+    database: AIRBNB
+    schema: staging
+
+    tables:
+      - name: listings # this is the table_name
+      - name: hosts
+      - name: bookings
